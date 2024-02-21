@@ -1,0 +1,31 @@
+{
+  "name": "1807002450",
+  "attributes": {
+    "onHand": 5.5,
+    "qty": 22.5,
+    "isDemandMet":true
+
+
+  },
+  "children":[
+      {
+          "name": "1805002025",
+          "attributes":{
+              "onHand": 5,
+              "qty": 10,
+              "isDemandMet":false
+          }
+      },
+      {
+        "name": "1805002025",
+        "attributes":{
+            "onHand": 5,
+            "qty": 10,
+            "isDemandMet":false
+        }
+    }
+      
+      ]
+
+
+}
