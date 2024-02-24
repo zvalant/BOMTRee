@@ -1,31 +1,1308 @@
 {
-  "name": "1807002450",
   "attributes": {
-    "onHand": 5.5,
-    "qty": 22.5,
-    "isDemandMet":true
-
-
+    "onHand": 0,
+    "qty": 6,
+    "isDemandMet": false,
+    "description": "ASSY,WEIGH MOD,DRIVEBA-1807",
+    "isComponentDemandMet": false
   },
-  "children":[
-      {
-          "name": "1805002025",
-          "attributes":{
-              "onHand": 5,
-              "qty": 10,
-              "isDemandMet":false
-          }
+  "name": "1807002450",
+  "children": [
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 121,
+        "isDemandMet": true,
+        "description": "SPACER 25.4 X10.5 X 39.9BA-1805",
+        "isComponentDemandMet": true
       },
-      {
-        "name": "1805002025",
-        "attributes":{
-            "onHand": 5,
-            "qty": 10,
-            "isDemandMet":false
+      "name": "1805002025",
+      "children": [
+        {
+          "attributes": {
+            "qty": -13.43,
+            "onHand": 16.909,
+            "isDemandMet": true,
+            "description": "BAR,RD,1\" DIA316 SST"
+          },
+          "name": "90900125"
         }
-    }
-      
       ]
-
-
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 3,
+        "isDemandMet": false,
+        "description": "SHAFT,INFEED ENCODER OPBA-1807",
+        "isComponentDemandMet": true
+      },
+      "name": "1807002220",
+      "children": [
+        {
+          "attributes": {
+            "qty": 3.4499999999999997,
+            "onHand": 64.5954884821,
+            "isDemandMet": true,
+            "description": "BAR,RD,25h91.4462c (316 SST)"
+          },
+          "name": "90902012"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 18,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "SPROCKET,12T,S1100",
+        "isComponentDemandMet": true
+      },
+      "name": "1807002225",
+      "children": [
+        {
+          "attributes": {
+            "qty": 18,
+            "onHand": 34,
+            "isDemandMet": true,
+            "description": "SPROCKET, 12T1100 SERIES"
+          },
+          "name": "92109031"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "ASSY, IDLER SHAFTBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002275",
+      "children": [
+        {
+          "attributes": {
+            "qty": 36,
+            "onHand": 68,
+            "isDemandMet": true,
+            "description": "ROLLERBA-1801",
+            "isComponentDemandMet": true
+          },
+          "name": "1801004020",
+          "children": [
+            {
+              "attributes": {
+                "qty": -8.32,
+                "onHand": 0,
+                "isDemandMet": true,
+                "description": "BAR,RD,2 1/2\" DIAHDPE-WHITE"
+              },
+              "name": "90890099"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 21,
+            "isDemandMet": true,
+            "description": "SHAFT, IDLERBA-1807",
+            "isComponentDemandMet": true
+          },
+          "name": "1807002276",
+          "children": [
+            {
+              "attributes": {
+                "qty": -8.19,
+                "onHand": 285.844,
+                "isDemandMet": true,
+                "description": "BAR,RD,25mm1.4301K (304 SST)"
+              },
+              "name": "90230253"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 72,
+            "onHand": 63,
+            "isDemandMet": false,
+            "description": "RETAINING RING, EXT 25MMIRR 3100-98 SS"
+          },
+          "name": "93800560"
+        },
+        {
+          "attributes": {
+            "qty": 24,
+            "onHand": 2217,
+            "isDemandMet": true,
+            "description": "SCR,M10x25 HEX,HD,CAPDIN 933 A4"
+          },
+          "name": "95161025"
+        },
+        {
+          "attributes": {
+            "qty": 24,
+            "onHand": 5050,
+            "isDemandMet": true,
+            "description": "WASHER,LOCK,M10DIN127 - A4"
+          },
+          "name": "95181000"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 18,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "ASSY,113i SPROCKET,S1100BA-1807",
+        "isComponentDemandMet": true
+      },
+      "name": "1807002280",
+      "children": [
+        {
+          "attributes": {
+            "qty": 36,
+            "onHand": 42,
+            "isDemandMet": true,
+            "description": "SPROCKET, 30T, S1100BA-1807"
+          },
+          "name": "1807002281"
+        },
+        {
+          "attributes": {
+            "qty": 54,
+            "onHand": 136,
+            "isDemandMet": true,
+            "description": "SPROCKET SPACER, S1100BA-1807",
+            "isComponentDemandMet": true
+          },
+          "name": "1807002282",
+          "children": [
+            {
+              "attributes": {
+                "qty": -11.808,
+                "onHand": 98.129,
+                "isDemandMet": true,
+                "description": "BAR,RD,1/4\" 316 SST"
+              },
+              "name": "90900379"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 54,
+            "onHand": 85,
+            "isDemandMet": true,
+            "description": "SCR, SET, M4X8 DIN916 A4"
+          },
+          "name": "95160404"
+        },
+        {
+          "attributes": {
+            "qty": 108,
+            "onHand": 151,
+            "isDemandMet": true,
+            "description": "SCR,M4x8 HEX,HD,CAPDIN 933 SST"
+          },
+          "name": "95160408"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 6,
+        "isDemandMet": true,
+        "description": "PLATE,MOTOR CAPTURE 113iBA-1807",
+        "isComponentDemandMet": true
+      },
+      "name": "1807002285",
+      "children": [
+        {
+          "attributes": {
+            "qty": 0,
+            "onHand": 2,
+            "isDemandMet": true,
+            "description": "LASER,PLATE,MOTORCAPTURE 113i BA-1807"
+          },
+          "name": "1807002285L"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 5,
+        "isDemandMet": false,
+        "description": "PLATE,MOTOR SUPPORT 113iBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002286",
+      "children": [
+        {
+          "attributes": {
+            "qty": 1,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "LASER,PLATE,MOTORSUPPORT 113i BA-1807"
+          },
+          "name": "1807002286L"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 18,
+        "onHand": 2,
+        "isDemandMet": false,
+        "description": "ASSY, WEARSTRIP 590BA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002430",
+      "children": [
+        {
+          "attributes": {
+            "qty": 16,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "WEARSTRIP, 590BA-1807",
+            "isComponentDemandMet": true
+          },
+          "name": "1807002431",
+          "children": [
+            {
+              "attributes": {
+                "qty": 31.04,
+                "onHand": 274.9,
+                "isDemandMet": true,
+                "description": "BAR,FLAT,3/4\"x 1\"UHMW",
+                "isComponentDemandMet": true
+              },
+              "name": "90220458",
+              "children": [
+                {
+                  "attributes": {
+                    "qty": -25.605299999999996,
+                    "onHand": 115.614,
+                    "isDemandMet": true,
+                    "description": "SH,3/4\"UHMW, 4'x10'"
+                  },
+                  "name": "90900246"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 32,
+            "onHand": 120,
+            "isDemandMet": true,
+            "description": "PIN,DOWEL,5x40 DIN7A4"
+          },
+          "name": "95091310"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "GUIDE STRIP,IDLE/DRVBA-1807",
+        "isComponentDemandMet": true
+      },
+      "name": "1807002458",
+      "children": [
+        {
+          "attributes": {
+            "qty": 11.16,
+            "onHand": 173.6226,
+            "isDemandMet": true,
+            "description": "SH,1 1/2\"(40MM)HDPE  NATURAL"
+          },
+          "name": "90900009"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "WLDT,WEIGH MOD,DRIVEBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002460",
+      "children": [
+        {
+          "attributes": {
+            "qty": 36,
+            "onHand": 8,
+            "isDemandMet": false,
+            "description": "STUD,M10x28 A4",
+            "isComponentDemandMet": true
+          },
+          "name": "1801001015",
+          "children": [
+            {
+              "attributes": {
+                "qty": 3.08,
+                "onHand": 101.1146,
+                "isDemandMet": true,
+                "description": "ROD,THREADED,M10DIN 975 A4"
+              },
+              "name": "90240010"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 48,
+            "onHand": 32,
+            "isDemandMet": false,
+            "description": "MOUNTING BOSS M6BA-1801",
+            "isComponentDemandMet": true
+          },
+          "name": "1801001055",
+          "children": [
+            {
+              "attributes": {
+                "qty": 1.056,
+                "onHand": 1.095,
+                "isDemandMet": true,
+                "description": "BAR,RD,5/8\" DIA316 SST"
+              },
+              "name": "90230164"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "GUSSET, FILLER, RHBA-1805",
+            "isComponentDemandMet": false
+          },
+          "name": "1805002016",
+          "children": [
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 0,
+                "isDemandMet": false,
+                "description": "FLAT, GUSSET, FILLERBA-1805"
+              },
+              "name": "1805002018"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "GUSSET, FILLER, LHBA-1805",
+            "isComponentDemandMet": false
+          },
+          "name": "1805002017",
+          "children": [
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 0,
+                "isDemandMet": false,
+                "description": "FLAT, GUSSET, FILLERBA-1805"
+              },
+              "name": "1805002018"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 1,
+            "isDemandMet": false,
+            "description": "TRIANGLE FILLERBA-1805"
+          },
+          "name": "1805002019"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "ROD, STIFFENERBA-1805",
+            "isComponentDemandMet": true
+          },
+          "name": "1805002020",
+          "children": [
+            {
+              "attributes": {
+                "qty": 5.58,
+                "onHand": 16.909,
+                "isDemandMet": true,
+                "description": "BAR,RD,1\" DIA316 SST"
+              },
+              "name": "90900125"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 3,
+            "isDemandMet": false,
+            "description": "CROSSMEMEBER, PLAINBA-1807"
+          },
+          "name": "1807002263"
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 1,
+            "isDemandMet": false,
+            "description": "CROSSMEMBER, DRIVE 2BA-1807"
+          },
+          "name": "1807002265"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "DRIVE FRAME,WEIGH,RHBA-1807",
+            "isComponentDemandMet": false
+          },
+          "name": "1807002461",
+          "children": [
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 1,
+                "isDemandMet": false,
+                "description": "FLAT,DRIVE FRAME,WEIGHBA-1807"
+              },
+              "name": "1807002463"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "DRIVE FRAME,WEIGH,LHBA-1807",
+            "isComponentDemandMet": false
+          },
+          "name": "1807002462",
+          "children": [
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 1,
+                "isDemandMet": false,
+                "description": "FLAT,DRIVE FRAME,WEIGHBA-1807"
+              },
+              "name": "1807002463"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 2,
+            "isDemandMet": false,
+            "description": "BOSS, M10 X 19 X 12.5BA-1807",
+            "isComponentDemandMet": true
+          },
+          "name": "1807002468",
+          "children": [
+            {
+              "attributes": {
+                "qty": 0.77,
+                "onHand": 111.714,
+                "isDemandMet": true,
+                "description": "BAR,RD,3/4\" DIA316 SST"
+              },
+              "name": "90900124"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 24,
+            "onHand": 33,
+            "isDemandMet": true,
+            "description": "PIN,DOWEL,12x50SST,DIN 7"
+          },
+          "name": "95091317"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "WLDT,PIVOT GUARD,113i RHBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002465",
+      "children": [
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 1,
+            "isDemandMet": false,
+            "description": "FLAT, PIVOT GUARD, 113iBA-1807"
+          },
+          "name": "1807002467"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 614,
+            "isDemandMet": true,
+            "description": "NUT,M10,HEX,JAMDIN 439  A4"
+          },
+          "name": "95170110"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "WLDT,PIVOT GUARD,113i LHBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002466",
+      "children": [
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 1,
+            "isDemandMet": false,
+            "description": "FLAT, PIVOT GUARD, 113iBA-1807"
+          },
+          "name": "1807002467"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 614,
+            "isDemandMet": true,
+            "description": "NUT,M10,HEX,JAMDIN 439  A4"
+          },
+          "name": "95170110"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "ASSY, SPRAY BAR 113iBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002470",
+      "children": [
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 4,
+            "isDemandMet": false,
+            "description": "WLDT, SPRAY BAR 113iBA-1807",
+            "isComponentDemandMet": false
+          },
+          "name": "1807002471",
+          "children": [
+            {
+              "attributes": {
+                "qty": 2,
+                "onHand": 0,
+                "isDemandMet": false,
+                "description": "SPRAY PIPE, 113iBA-1807",
+                "isComponentDemandMet": true
+              },
+              "name": "1807002475",
+              "children": [
+                {
+                  "attributes": {
+                    "qty": 1.884,
+                    "onHand": 48.515,
+                    "isDemandMet": true,
+                    "description": "TUBE SS 1/2 OD x .093 WA"
+                  },
+                  "name": "90730060"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "qty": 2,
+                "onHand": 15,
+                "isDemandMet": true,
+                "description": "THREADED PLUGBA-1625",
+                "isComponentDemandMet": true
+              },
+              "name": "6252440412",
+              "children": [
+                {
+                  "attributes": {
+                    "qty": -1.066,
+                    "onHand": 401.6286,
+                    "isDemandMet": true,
+                    "description": "BAR,RD,5/8\" DIA304 SST CF"
+                  },
+                  "name": "90230160"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "qty": 2,
+                "onHand": 15,
+                "isDemandMet": true,
+                "description": "ROTATOR TABBA-1625"
+              },
+              "name": "6252440413"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 410,
+            "isDemandMet": true,
+            "description": "WASHER,FLAT,M6, FENDERDIN902 SST A4 (167081)"
+          },
+          "name": "31801006"
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 216,
+            "isDemandMet": true,
+            "description": "NOZZLE,VEE JET,H1/8,VVSS"
+          },
+          "name": "710006"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 126,
+            "isDemandMet": true,
+            "description": "FTG,PP 90,R1/8x6MMBRS NP"
+          },
+          "name": "93410048"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 7133,
+            "isDemandMet": true,
+            "description": "SCR,M6x16 HEX,HD,CAPDIN 933 A4 SST"
+          },
+          "name": "95160615"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 252,
+            "isDemandMet": true,
+            "description": "SCR,M12x20 HEX,HD,CAPDIN 933 A4"
+          },
+          "name": "95161220"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 2456,
+            "isDemandMet": true,
+            "description": "NUT,M12 HEX  LOCKDIN 985 A4"
+          },
+          "name": "95171200"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 2876,
+            "isDemandMet": true,
+            "description": "WASHER,LOCK,M6DIN127 - A4"
+          },
+          "name": "95180600"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "ASSY, DRIP PAN, 113iBA-1807",
+        "isComponentDemandMet": false
+      },
+      "name": "1807002485",
+      "children": [
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "ASSY, SPRAY BAR 113iBA-1807",
+            "isComponentDemandMet": false
+          },
+          "name": "1807002470",
+          "children": [
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 4,
+                "isDemandMet": false,
+                "description": "WLDT, SPRAY BAR 113iBA-1807",
+                "isComponentDemandMet": false
+              },
+              "name": "1807002471",
+              "children": [
+                {
+                  "attributes": {
+                    "qty": 2,
+                    "onHand": 0,
+                    "isDemandMet": false,
+                    "description": "SPRAY PIPE, 113iBA-1807",
+                    "isComponentDemandMet": true
+                  },
+                  "name": "1807002475",
+                  "children": [
+                    {
+                      "attributes": {
+                        "qty": 1.884,
+                        "onHand": 48.515,
+                        "isDemandMet": true,
+                        "description": "TUBE SS 1/2 OD x .093 WA"
+                      },
+                      "name": "90730060"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "qty": 2,
+                    "onHand": 15,
+                    "isDemandMet": true,
+                    "description": "THREADED PLUGBA-1625",
+                    "isComponentDemandMet": true
+                  },
+                  "name": "6252440412",
+                  "children": [
+                    {
+                      "attributes": {
+                        "qty": -1.066,
+                        "onHand": 401.6286,
+                        "isDemandMet": true,
+                        "description": "BAR,RD,5/8\" DIA304 SST CF"
+                      },
+                      "name": "90230160"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "qty": 2,
+                    "onHand": 15,
+                    "isDemandMet": true,
+                    "description": "ROTATOR TABBA-1625"
+                  },
+                  "name": "6252440413"
+                }
+              ]
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 410,
+                "isDemandMet": true,
+                "description": "WASHER,FLAT,M6, FENDERDIN902 SST A4 (167081)"
+              },
+              "name": "31801006"
+            },
+            {
+              "attributes": {
+                "qty": 12,
+                "onHand": 216,
+                "isDemandMet": true,
+                "description": "NOZZLE,VEE JET,H1/8,VVSS"
+              },
+              "name": "710006"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 126,
+                "isDemandMet": true,
+                "description": "FTG,PP 90,R1/8x6MMBRS NP"
+              },
+              "name": "93410048"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 7133,
+                "isDemandMet": true,
+                "description": "SCR,M6x16 HEX,HD,CAPDIN 933 A4 SST"
+              },
+              "name": "95160615"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 252,
+                "isDemandMet": true,
+                "description": "SCR,M12x20 HEX,HD,CAPDIN 933 A4"
+              },
+              "name": "95161220"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 2456,
+                "isDemandMet": true,
+                "description": "NUT,M12 HEX  LOCKDIN 985 A4"
+              },
+              "name": "95171200"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 2876,
+                "isDemandMet": true,
+                "description": "WASHER,LOCK,M6DIN127 - A4"
+              },
+              "name": "95180600"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 8,
+            "isDemandMet": true,
+            "description": "SPACER, 13 X 19 X 20",
+            "isComponentDemandMet": true
+          },
+          "name": "1807002477",
+          "children": [
+            {
+              "attributes": {
+                "qty": -0.184,
+                "onHand": 5.55,
+                "isDemandMet": true,
+                "description": "BAR,RD,3/4\" DIADELRIN, NATURAL (20mm)"
+              },
+              "name": "90835042"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 0,
+            "isDemandMet": false,
+            "description": "WLDT, CATCH PAN 113iBA-1807",
+            "isComponentDemandMet": false
+          },
+          "name": "1807002486",
+          "children": [
+            {
+              "attributes": {
+                "qty": 12,
+                "onHand": 1,
+                "isDemandMet": false,
+                "description": "FLAT,CATCH PAN,SIDE 113iBA-1807"
+              },
+              "name": "1807002487"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 1,
+                "isDemandMet": false,
+                "description": "FLAT, CATCH PAN, 113iBA-1807"
+              },
+              "name": "1807002488"
+            },
+            {
+              "attributes": {
+                "qty": 6,
+                "onHand": 1,
+                "isDemandMet": false,
+                "description": "TUBE, DRAINBA-1807",
+                "isComponentDemandMet": true
+              },
+              "name": "1807002490",
+              "children": [
+                {
+                  "attributes": {
+                    "qty": 1.33,
+                    "onHand": 6.336,
+                    "isDemandMet": true,
+                    "description": "TUBE,RD,2\"ODx 1/8\" WALL316 SST"
+                  },
+                  "name": "90730191"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 7,
+            "isDemandMet": false,
+            "description": "SPACER 8.1x12x16.5SS",
+            "isComponentDemandMet": true
+          },
+          "name": "28018202120",
+          "children": [
+            {
+              "attributes": {
+                "qty": 0.355,
+                "onHand": 16.17,
+                "isDemandMet": true,
+                "description": "BAR,RD,1/2\" DIA316 SST"
+              },
+              "name": "90900335"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 1009,
+            "isDemandMet": true,
+            "description": "WASHER,FLAT,M10,FENDERDIN 9021 A4"
+          },
+          "name": "31801010"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 19,
+            "isDemandMet": true,
+            "description": "LEVER,ADJUSTABLE 10MMSTAINLESS"
+          },
+          "name": "93150100"
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 1323,
+            "isDemandMet": true,
+            "description": "SCR,M8x30 DIN 933ISO 4017 A4-80"
+          },
+          "name": "95160830"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 2157,
+            "isDemandMet": true,
+            "description": "SCR,M10x30 HEX,HD,CAPDIN 933 - A4"
+          },
+          "name": "95161028"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 614,
+            "isDemandMet": true,
+            "description": "NUT,M10,HEX,JAMDIN 439  A4"
+          },
+          "name": "95170110"
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 13062,
+            "isDemandMet": true,
+            "description": "NUT,M8 HEX SS LOCKDIN985 A4"
+          },
+          "name": "95170800"
+        },
+        {
+          "attributes": {
+            "qty": 12,
+            "onHand": 16461,
+            "isDemandMet": true,
+            "description": "WASHER,FLAT,M8,DIN 125 - A4"
+          },
+          "name": "95180008"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 5050,
+            "isDemandMet": true,
+            "description": "WASHER,LOCK,M10DIN127 - A4"
+          },
+          "name": "95181000"
+        },
+        {
+          "attributes": {
+            "qty": 6,
+            "onHand": 3,
+            "isDemandMet": false,
+            "description": "WASHER, 10.5x22x2,UHMW"
+          },
+          "name": "95181007"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "KEY,8x7x32DIN 6885 SST"
+      },
+      "name": "31838732"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 12,
+        "isDemandMet": true,
+        "description": "KEY,8x7x50SST"
+      },
+      "name": "31838750"
+    },
+    {
+      "attributes": {
+        "qty": 4.199999999999999,
+        "onHand": 327.419,
+        "isDemandMet": true,
+        "description": "TUBE,POLYUR, 6MM,BLUE"
+      },
+      "name": "90771038"
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "UHMW WASHER 8.4"
+      },
+      "name": "90901810"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 3,
+        "isDemandMet": false,
+        "description": "MOTOR,DRUM,0.7kW,400VDM0113 SYNC W/ENCODER"
+      },
+      "name": "92021452"
+    },
+    {
+      "attributes": {
+        "qty": 30,
+        "onHand": 388.9,
+        "isDemandMet": true,
+        "description": "BELT, CNVR 10\"WIDE S1100BLUE ACETAL"
+      },
+      "name": "92541486"
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 45,
+        "isDemandMet": true,
+        "description": "BRG, FLG, 20MM,3BOLT, CCMBFBL4CEW",
+        "isComponentDemandMet": true
+      },
+      "name": "92700167",
+      "children": [
+        {
+          "attributes": {
+            "qty": -33,
+            "onHand": 0,
+            "isDemandMet": true,
+            "description": "BRG,20MM,3 BOLT FLG** USE 92700167 **"
+          },
+          "name": "92700141"
+        },
+        {
+          "attributes": {
+            "qty": -33,
+            "onHand": 9,
+            "isDemandMet": true,
+            "description": "BEARING COVER,CLOSED20MM204CCW"
+          },
+          "name": "92700175"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "SPRING PLUNGER, M10"
+      },
+      "name": "92902292"
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 88,
+        "isDemandMet": true,
+        "description": "FTG,PP 90,R1/4x6MM"
+      },
+      "name": "93400253"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 75,
+        "isDemandMet": true,
+        "description": "ELBOW STREET 1/4 NPT 90REPLACED 0031289"
+      },
+      "name": "93411362"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 12,
+        "isDemandMet": true,
+        "description": "TEE 1/4 NPT SS       (NO"
+      },
+      "name": "93420110"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 8,
+        "isDemandMet": true,
+        "description": "HOSE BARB 3/8 x 1/4NPT S"
+      },
+      "name": "93861922"
+    },
+    {
+      "attributes": {
+        "qty": 18,
+        "onHand": 2,
+        "isDemandMet": false,
+        "description": "BOLT,SHLDR,8 X 40 X M6"
+      },
+      "name": "95049063"
+    },
+    {
+      "attributes": {
+        "qty": 18,
+        "onHand": 72,
+        "isDemandMet": true,
+        "description": "SCR,M4X10,SOC HD CAP SSDIN 912"
+      },
+      "name": "95160410"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 7133,
+        "isDemandMet": true,
+        "description": "SCR,M6x16 HEX,HD,CAPDIN 933 A4 SST"
+      },
+      "name": "95160615"
+    },
+    {
+      "attributes": {
+        "qty": 30,
+        "onHand": 275,
+        "isDemandMet": true,
+        "description": "SCR,M10x60 HEX,HD,CAPDIN A4 SST"
+      },
+      "name": "95161059"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 0,
+        "isDemandMet": false,
+        "description": "NUT,M10 CAP SS (ACORN)DIN 1587  A4 (167102)"
+      },
+      "name": "95170011"
+    },
+    {
+      "attributes": {
+        "qty": 12,
+        "onHand": 614,
+        "isDemandMet": true,
+        "description": "NUT,M10,HEX,JAMDIN 439  A4"
+      },
+      "name": "95170110"
+    },
+    {
+      "attributes": {
+        "qty": 30,
+        "onHand": 7603,
+        "isDemandMet": true,
+        "description": "NUT,M10 HEX SS LOCKDIN 985 A4"
+      },
+      "name": "95171000"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 2771,
+        "isDemandMet": true,
+        "description": "WASHER,M6,DIN125 - A4"
+      },
+      "name": "95180006"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 5105,
+        "isDemandMet": true,
+        "description": "WASHER,FLAT,M10DIN125 - A4"
+      },
+      "name": "95180010"
+    },
+    {
+      "attributes": {
+        "qty": 6,
+        "onHand": 658,
+        "isDemandMet": true,
+        "description": "WASHER,FLAT,M16 DIN125A4"
+      },
+      "name": "95180016"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 2876,
+        "isDemandMet": true,
+        "description": "WASHER,LOCK,M6DIN127 - A4"
+      },
+      "name": "95180600"
+    },
+    {
+      "attributes": {
+        "qty": 36,
+        "onHand": 5050,
+        "isDemandMet": true,
+        "description": "WASHER,LOCK,M10DIN127 - A4"
+      },
+      "name": "95181000"
+    }
+  ]
 }
